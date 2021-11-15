@@ -23,21 +23,6 @@
         </el-menu>
       </el-aside>
       <el-main>
-        <div>
-          <el-amap
-            vid="amapContainer"
-            :amap-manager="amapManager"
-            :center='center'
-            :zoom='zoom'
-            :events="events"
-            class="amap-demo"
-          >
-            <!--            <el-amap-marker-->
-            <!--              :position="center"-->
-            <!--              :label="label"-->
-            <!--            ></el-amap-marker>-->
-          </el-amap>
-        </div>
       </el-main>
     </el-container>
   </el-container>
