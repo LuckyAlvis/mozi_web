@@ -43,7 +43,7 @@ export default {
 
 </script>
 
-<style>
+<style lang="less" scoped>
 .el-container {
   height: 100%;
 }
@@ -62,5 +62,9 @@ export default {
 
 .el-main {
   background-color: wheat;
+}
+
+.el-menu {
+  border-right-width: 0;
 }
 </style>
