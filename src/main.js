@@ -18,7 +18,7 @@ import axios from 'axios'
 //   v: '1.4.4'
 // })
 
-axios.defaults.baseURL = 'http://localhost:8808/api/v1/'
+axios.defaults.baseURL = 'http://localhost:8082/'
 Vue.prototype.$http = axios
 
 Vue.config.productionTip = false

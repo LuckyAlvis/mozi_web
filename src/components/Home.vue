@@ -5,11 +5,11 @@
     </el-header>
     <el-container>
       <el-aside width="200px">
-        <el-menu background-color="#333744" :default-openeds="['1', '3']" text-color="#fff">
+        <el-menu background-color="#333744" :default-openeds="['1', '3']" text-color="#fff" router>
           <el-submenu index="1">
             <template slot="title"><i class="el-icon-message"></i>导航一</template>
-            <el-menu-item index="1-1">选项1</el-menu-item>
-            <el-menu-item index="1-2">选项2</el-menu-item>
+            <el-menu-item index="users">选项1</el-menu-item>
+            <el-menu-item index="rights">选项2</el-menu-item>
           </el-submenu>
           <el-submenu index="2">
             <template slot="title"><i class="el-icon-menu"></i>导航二</template>
@@ -23,6 +23,7 @@
         </el-menu>
       </el-aside>
       <el-main>
+        <router-view></router-view>
       </el-main>
     </el-container>
   </el-container>
